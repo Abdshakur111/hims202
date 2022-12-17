@@ -14,10 +14,18 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="bootstrap.css">
 <script src="bootstrap.bundle.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+ <script>
+   var typed = new Typed(".auto", {
+     strings: ["Welcome to HIMS SS3 CLASS 2022/2023 SET","Welcome to HIMS SS3 CLASS 2022/2023 SET"],
+     typespeed: 150,
+     backspeed: 150,
+     loop: true
+   })
+ </script>
 </head>
 
 <body>
-  <div id="preloader"></div>
     <nav class="navbar navbar-expand-md" style="background: transparent">
       <div class="container-fluid">
         <a href="#" class="navbar-brand">
@@ -34,13 +42,25 @@
         <div class="offcanvas-body justify-content-end">
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" href="#">CONTACT ME</a>
+              <a class="nav-link active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROFILES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">UPDATES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT ME</a>
             </li>
           </ul>
          </div>
         </div>
         </nav>
-    <div class="container">
+   <!-- <div class="container">
         <h1>Classroom Website</h1>
         <div class="row">
             <div class="col-md-4">
@@ -68,6 +88,9 @@
                 </ul>
             </div>
         </div>
+    </div> -->
+    <div>
+    <h1><span class="auto"></span></h1>
     </div>
 </body>
 </html>
